@@ -13,6 +13,7 @@
 		BEA699B01CD9F76E00A64EC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA699AF1CD9F76E00A64EC5 /* Images.xcassets */; };
 		BEA699B31CD9F76E00A64EC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA699B11CD9F76E00A64EC5 /* LaunchScreen.xib */; };
 		BEA699BF1CD9F76E00A64EC5 /* iBookAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA699BE1CD9F76E00A64EC5 /* iBookAppTests.swift */; };
+		BEA699C91CD9F81D00A64EC5 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA699C81CD9F81D00A64EC5 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BEA699B81CD9F76E00A64EC5 /* iBookAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBookAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA699BD1CD9F76E00A64EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEA699BE1CD9F76E00A64EC5 /* iBookAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBookAppTests.swift; sourceTree = "<group>"; };
+		BEA699C81CD9F81D00A64EC5 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				BEA699A81CD9F76E00A64EC5 /* AppDelegate.swift */,
 				BEA699AA1CD9F76E00A64EC5 /* ViewController.swift */,
+				BEA699C81CD9F81D00A64EC5 /* ViewController2.swift */,
 				BEA699AC1CD9F76E00A64EC5 /* Main.storyboard */,
 				BEA699AF1CD9F76E00A64EC5 /* Images.xcassets */,
 				BEA699B11CD9F76E00A64EC5 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				BEA699AB1CD9F76E00A64EC5 /* ViewController.swift in Sources */,
 				BEA699A91CD9F76E00A64EC5 /* AppDelegate.swift in Sources */,
+				BEA699C91CD9F81D00A64EC5 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				BEA699C41CD9F76E00A64EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEA699C51CD9F76E00A64EC5 /* Build configuration list for PBXNativeTarget "iBookAppTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				BEA699C71CD9F76E00A64EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
