@@ -126,9 +126,17 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate{
             print("\n\(palabraFinArray)\n")
             println(link)
             
-            transition(link)
+            intTransWord(link)
         }
         
+    }
+    
+    func intTransWord(palabra:String){
+        if palabra == "palabra"{
+            transition(palabra)
+        }else{
+            println("\n ninguna coincidencia \n")
+        }
     }
     
     func transition(link:String){

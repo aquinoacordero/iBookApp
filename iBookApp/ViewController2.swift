@@ -47,7 +47,7 @@ class ViewController2: UIViewController{
             
             var button2 = UIButton.buttonWithType(UIButtonType.ContactAdd) as UIButton
             button2.frame = CGRectMake(220,220,25,25)
-            button2.addTarget(self, action: "button1Action:", forControlEvents: UIControlEvents.TouchUpInside)
+            button2.addTarget(self, action: "button2Action:", forControlEvents: UIControlEvents.TouchUpInside)
             imagen.addSubview(button1)
             imagen.addSubview(button2)
             
@@ -55,7 +55,7 @@ class ViewController2: UIViewController{
         else{
             var button2 = UIButton.buttonWithType(UIButtonType.ContactAdd) as UIButton
             button2.frame = CGRectMake(0,20,25,25)
-            button2.addTarget(self, action: "button2Action:", forControlEvents: UIControlEvents.TouchUpInside)
+            button2.addTarget(self, action: "button1Action:", forControlEvents: UIControlEvents.TouchUpInside)
             imagen.addSubview(button2)
             
         }
@@ -76,6 +76,7 @@ class ViewController2: UIViewController{
         
         if aZoom==false{
             self.imagen.transform=CGAffineTransformScale(self.imagen.transform, 2, 2)
+            self.imagen.transform=CGAffineTransformTranslate(self.imagen.transform, 160, 220)
             aZoom=true
         }else{
             
@@ -94,7 +95,8 @@ class ViewController2: UIViewController{
         textViewNote.hidden=false
         
         if aZoom==false{
-            self.imagen.transform=CGAffineTransformScale(CGAffineTransformIdentity, 2, 2)
+            self.imagen.transform=CGAffineTransformScale(self.imagen.transform, 2, 2)
+            self.imagen.transform=CGAffineTransformTranslate(self.imagen.transform, -40, 20)
             aZoom=true
         }else{
             
@@ -106,6 +108,7 @@ class ViewController2: UIViewController{
         
         if aZoom==true{
             self.imagen.transform=CGAffineTransformScale(self.imagen.transform, 0.5, 0.5)
+            self.imagen.transform=CGAffineTransformMakeTranslation(0, 0)
             aZoom=false
         }else{
             
